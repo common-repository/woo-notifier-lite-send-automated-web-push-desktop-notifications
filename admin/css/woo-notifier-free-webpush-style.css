@@ -1,0 +1,76 @@
+.n_web_push_form input[type="file"]{height: 0;width: 0;visibility: hidden;padding: 0;margin: 0;}
+.n_web_push_form .wpn_title_append th{padding: 0;text-transform: uppercase;}
+.n_web_push_form .n_file_label {border: 1px solid transparent;display: inline-block;line-height: 40px;text-align: center;padding: 0 15px;background-color: #ddd;color: #303030;border-radius: 3px;float: left;width: 110px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.n_web_push_form input[type="file"]:focus + .n_file_label{border-color: #adc9e2;box-shadow: 0 0 2px rgba(30,140,190,.8);}
+.n_web_push_form{table-layout: fixed;width: 100%;float: left;}
+.n_web_push_form .n_inner_form > td{width: 42%;display: block;float: left;}
+.n_web_push_form input[name="wpn_push"]{max-width: 100%;width: auto;border: 0;min-width: 195px;apperance:none;-webkit-apperance:none;-moz-apperance:none;-ms-apperance:none;padding: 0 15px;display: inline-block;line-height: 40px;color: #fff;background-color: #0073aa;border-radius: 3px;cursor: pointer;}
+.n_inner_form{vertical-align: middle;}
+.n_inner_form table{width: 100%;}
+.n_inner_form th{width: 120px;}
+.n_inner_form textarea,.n_inner_form input{width: 100%;max-width: 340px;line-height: 25px;}
+.n_notification_preview{font-size: 1.2em;}
+.n_notification_preview h4{text-transform: uppercase;margin-bottom: 10px;}
+.n_notification_block{display: table;width: 100%;max-width: 655px;table-layout: fixed;box-shadow: 0 0 5px #ccc;-webkit-box-shadow: 0 0 5px #ccc;-moz-box-shadow: 0 0 5px #ccc;-ms-box-shadow: 0 0 5px #ccc;}
+.n_notification_block > div{display: table-cell;vertical-align: top;background-color: #fff;padding: 12px;position: relative;}
+.n_notification_block .n_img_block{width: 32%;}
+.n_img_block img{max-width: 80%;height: auto;max-height: 125px;width: auto;}
+.n_text_block span{display: block;margin-bottom: 5px;width: 100%;overflow: hidden;}
+.n_text_block span.wpn_title_append{font-weight: bold;font-size: 1.1em;min-height: 24px;}
+.n_text_block .wpn_message_append{line-height: 24px;min-height: 73px;overflow: auto;margin-bottom: 30px;}
+.n_text_block .wpn_url_append{font-size: 90%;color: #777;width: 92%;min-height: 19px;position: absolute;bottom: 10px;}
+.wpn_success_message{background-color: #dff0d8;padding: 10px 25px;color: #3c763d;font-size: 15px;display: block;max-width: 300px;margin-top: 15px;}
+.wpn_success_message:empty{visibility: hidden;}
+.widefat th.regID {text-overflow: ellipsis;word-break: break-word;}
+.all_country_list span.user_country { padding-left: 5px;}
+.all_country_list {margin-top: 20px;}
+.five_col_country_list {float: left; margin-left: 10px; margin-right: 20px;}
+
+.notification_history_preview{font-size: 1.2em;}
+.notification_history_preview h4{text-transform: uppercase;}
+.notification_history_block{display: table;width: 100%;max-width: 555px;table-layout: fixed;box-shadow: 0 0 5px #ccc;-webkit-box-shadow: 0 0 5px #ccc;-moz-box-shadow: 0 0 5px #ccc;-ms-box-shadow: 0 0 5px #ccc;}
+.notification_history_block > div{display: table-cell;vertical-align: top;background-color: #fff;padding: 12px;position: relative;}
+.notification_history_block .wpn_img_block{width: 100px;vertical-align: middle;padding-right: 15px;text-align: center;}
+.wpn_img_block img{max-width: 100%;height: auto;max-height: 55px;width: auto;}
+.wpn_text_block span{display: block;margin-bottom: 5px;width: 100%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.wpn_text_block span.wpn_title_append{font-weight: bold;font-size: 1.1em;min-height: 24px;}
+.wpn_text_block .wpn_message_append{line-height: 24px;overflow: auto;margin-bottom: 40px;}
+.wpn_text_block .wpn_url_append{font-size: 90%;width:96%;color: #777;min-height: 19px;position: absolute;bottom: 10px;}
+span.require-filed {color: red;}
+a#wpn_resend_notification {cursor: pointer;}
+@media screen and (max-width : 1100px){
+.n_web_push_form .n_inner_form > td{width: 100%;padding: 0 15px;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;}
+.n_web_push_form tr.wpn_title_append{padding: 0 15px;display: block;}
+.n_notification_preview {font-size: 1.2em;border-top: 1px solid #ccc;margin-top: 15px;}
+.n_inner_form th {margin-bottom: 6px;}
+.n_web_push_form input[name="wpn_push"]{margin: 0 auto;display: block;}
+}
+
+.wpn-tab-content {width:95%;float:left;padding: 20px;margin: 20px 0px;box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.28);-webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.28);-moz-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.28);border-radius: 10px;}
+.wpn-tab-content a.nav-tab {border-radius: 10px;border-bottom: 1px solid #cccccc;}
+.wpn-add-notification {float: right;margin-right: 22px;}
+#chars{vertical-align:middle;}
+.wpn-header-logo {font-size: 36px;text-align: center;margin-top: 10px;}
+.wpn-header-logo .wpn-img{display: inline-block;vertical-align: middle;}
+.wpn-tab-content .nav-tab-active, .nav-tab-active:focus, .nav-tab-active:focus:active, .nav-tab-active:hover {border-bottom: 1px solid #cccccc;}
+
+/*welcome Scree css */
+#wpnc_dialog {width:500px; font-size:15px; font-weight:bold;}
+#wpnc_dialog p {font-size:15px; font-weight:bold;}
+.free_plugin {margin-bottom: 20px;}
+.paid_plugin {margin-bottom: 20px;}
+.paid_plugin h3 {border-bottom: 1px solid #ccc;padding-bottom: 20px;}
+.free_plugin h3 {padding-bottom: 20px;border-bottom: 1px solid #ccc;}
+.paid_plugin {margin-bottom: 20px;}
+.paid_plugin h3 {border-bottom: 1px solid #ccc;padding-bottom: 20px;}
+.free_plugin h3 {padding-bottom: 20px;border-bottom: 1px solid #ccc;}
+.plug-containter { width: 100%;display: inline-block;margin-left: 20px;}
+.plug-containter .contain-section {width: 25%;display: inline-block;margin-top: 30px;}
+.plug-containter .contain-section .contain-img {width: 30%;display: inline-block;}
+.plug-containter .contain-section .contain-title {width: 50%;display: inline-block;vertical-align: middle;margin-left: 10px;}
+.plug-containter .contain-section .contain-title a {text-decoration: none;line-height: 20px;font-weight: bold;}
+.version_logo_img {position: absolute;right: 0;top: 0;}
+
+.dotstore-plugins_page_woo_notifier #wpfooter {position: relative;}
+/*Plugin css 10.15.2016 */
+
